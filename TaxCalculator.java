@@ -8,9 +8,10 @@ public class TaxCalculator {
         double taxPercentage = price<=1000? 0.18:0.08;
         double priceWithTax = price * (1+taxPercentage);
         System.err.println();
-    System.err.printf("KDV'siz Fiyat = %.2f \n",price);
-    System.err.printf("KDV'li Fiyat = %.2f \n",priceWithTax);
-    System.err.printf("KDV tutarı = %.2f \n",(price*taxPercentage));
- }
+        scanner.close();
+        System.err.printf("KDV'siz Fiyat = %.2f \n",price);
+        System.err.printf("KDV'li Fiyat = %.2f \n",priceWithTax);
+        System.err.printf("KDV tutarı = %.2f \n",(price*taxPercentage));
+    }
     
 }
