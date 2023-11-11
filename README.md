@@ -1,8 +1,6 @@
 # kodluyoruzilkrepo
 Bu repo [Kodluyoruz](https://www.kodluyoruz.org) Java Backend eğitimi için oluşturduğum ilk repo. İçerisinde bir adet README dosyası, bir adet de lisans dosyası barındırıyor.
 
-![github](figures/github.png)
-
 ## Installation
 
 Öncelikle projeyi clonelayın.
